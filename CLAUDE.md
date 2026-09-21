@@ -8,6 +8,8 @@ Hackathon entry for Monad: an on-chain order book. The product direction is **no
 - `ideas.md` — candidate ideas with rubric scores (batch-auction CLOB vs. private curve-based order book)
 - `execution.md` — background on order books, quant trading, and the solver/RFQ alternative
 - `tracks-eligibility.md` — sponsor bounty requirements (sponsor choices also undecided)
+- `inspo/` — reference projects behind the ideas (e.g. `inspo/arcbook.md`). How scrip borrows from them is undecided; read on demand, don't treat as spec.
+- `.claude/rules/monad-differences.md` — Monad vs. Ethereum behavior (loaded automatically)
 
 `src/Counter.sol`, `test/Counter.t.sol`, `script/Counter.s.sol` are Foundry scaffolding placeholders — replace them, don't build on them.
 
