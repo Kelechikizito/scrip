@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "monad-docs": {
+      "type": "http",
+      "url": "https://docs.monad.xyz/mcp"
+    }
+  }
+}

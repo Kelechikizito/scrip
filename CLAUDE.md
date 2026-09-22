@@ -11,6 +11,7 @@ Hackathon entry for Monad: an on-chain order book. The product direction is **no
 - `hackathon-resources.md` — official Metropolis resource catalog (Monad docs, templates, SDKs, MCP servers/skills, sponsor perks, per-idea reading lists). Check it first when you need a Monad doc link, RPC/indexer, or reference for an order-book design (see "Execution-Aware Trading Interfaces", "New Order Types via Better UI", "Continuous Liquidity for Illiquid Assets")
 - `inspo/` — reference projects behind the ideas (e.g. `inspo/arcbook.md`). How scrip borrows from them is undecided; read on demand, don't treat as spec.
 - `.claude/rules/monad-differences.md` — Monad vs. Ethereum behavior (loaded automatically)
+- `monad-docs` MCP server (`.mcp.json`) — search/fetch docs.monad.xyz. Prefer it over memory for Monad-specific behavior
 
 `src/Counter.sol`, `test/Counter.t.sol`, `script/Counter.s.sol` are Foundry scaffolding placeholders — replace them, don't build on them.
 
