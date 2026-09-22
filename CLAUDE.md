@@ -30,4 +30,5 @@ A change isn't done until all three pass. Run a single test with `forge test --m
 ## Conventions
 
 - New contracts follow the user's `/sol-style-guide` skill: its file layout, section ordering, and full NatSpec.
+- UI sound effects: [cuelume](https://www.npmjs.com/package/cuelume) is installed in `frontend/` but not wired up. When the user asks for interaction sounds, follow its agent guide at https://cuelume-site.pages.dev/agents.md (call `bind()` once from a client component, tag elements with `data-cuelume-*`). Don't wire it until asked.
 - `lib/forge-std` and `lib/openzeppelin-contracts` are git submodules — never edit them. After cloning, run `git submodule update --init --recursive`.
