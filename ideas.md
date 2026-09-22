@@ -1,4 +1,4 @@
-1. Using curves and Seun Lanlege strategies Order book for quant trading — 44/60 · Viable
+1. Using curves and Seun Lanlege strategies Order book for quant trading — 44/60 · Viable (Privacy is the default)
 
 A fully onchain central limit order book built for algorithmic and market-making flow rather than retail clicking.
 
@@ -42,3 +42,7 @@ Make privacy visible even with the curve on screen. Split-screen: left pane is t
 Check the rules. Submissions must be new work built during the window. You can bring UMBRA's context and team, not its code.
 
 One-line pitch: "Makers publish a curve instead of a ladder — so an illiquid asset has a live two-sided market even when nobody is sitting on the other side, and nobody can see the size coming."
+
+---
+
+lol nah, privacy is _not_ dead, we've just built the wrong defaults so far. any kind of privacy must be part of the _runtime_ (can be an execution layer, can be a browser, etc.), not something users have to configure. that's why i've been saying for years: we must ship _L1 enshrined unconditional_ privacy. if the default tx is private by default, you scale privacy and you win. i won't stop until i can replace my xmr txs with eth txs. build the right system defaults, and you win. ethereum enshrined privacy will win.
